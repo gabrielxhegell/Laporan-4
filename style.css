@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    max-width: auto;
+    place-items: center;
+}
+
+.forms {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+
+.name,
+.choice,
+.btn,
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,9 +1,13 @@
 body {
     height: 100vh;
+    background-image: url('./public/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
     margin-top: 20px;
+
 }
 
 .container {
@@ -15,6 +19,7 @@ main {
     height: 100%;
     max-width: auto;
     place-items: center;
+
 }
 
 .forms {
